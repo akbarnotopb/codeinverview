@@ -1,0 +1,23 @@
+#login-box{
+    width: 350px;
+    padding: 40px 40px 40px;
+    background: rgba(255,255,255,.5);
+    box-sizing: border-box;
+    box-shadow: 0 10px 25px rgb(255 255 255 / 20%);
+    border-radius: 10px;
+    overflow: hidden;
+    border:1px solid #ced4da
+}
+
+#login-container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#register-action{
+    float:right;
+    color:#0069d9;
+    cursor: pointer;
+}
